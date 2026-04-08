@@ -1,1 +1,0 @@
-# hotelli-veebi-projekt
