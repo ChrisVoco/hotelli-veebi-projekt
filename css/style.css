@@ -26,7 +26,7 @@ h3 {
 .container {
   margin: auto;
   max-width: 1100px;
-  padding: 0 20px;
+  padding: 5px 20px;
   overflow: auto;
 }
 
@@ -112,6 +112,11 @@ h3 {
   color: #ffce00;
 }
 
+#navbar h1 {
+  padding-top: 20px;
+  float: left;
+}
+
 /* SHOWCASE */
 #showcase {
   background: url("../img/showcase.jpg") no-repeat center center/cover;
@@ -153,6 +158,10 @@ h3 {
   text-align: center;
   padding: 50px 30px;
   overflow: hidden;
+}
+
+#info .info-content p {
+  padding-bottom: 30px;
 }
 
 /* FEATURES */
@@ -245,4 +254,15 @@ h3 {
 #contact-form .form-group textarea:focus {
   outline: none;
   border-color: #f7c08a;
+}
+
+#contact-info .box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+#contact-info .box i {
+  margin-bottom: 10px;
 }
